@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * function main - entry point 
+ * main - entry point 
  * Return: 0 always (succes)
- *
  */
-
 int main(void)
 {
 	int ch;
