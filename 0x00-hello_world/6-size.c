@@ -1,13 +1,13 @@
 #include <stdio.h>
-/*
- * main - print the string in the put function
- * Return : 0
+/**
+ * main - print the string in the put funtion
+ * Return: 0
  */
-int main(void)
+int main (void)
 {
 	char c;
 	int i;
-	long li;
+	long int li;
 	long long lli;
 	float f;
 
@@ -16,5 +16,6 @@ int main(void)
 	printf("Size of a long int: %1d byte(s)\n", sizeof(li));
 	printf("Size of a long long int: %1d byte(s)\n", sizeof(lli));
 	printf("Size of a float: %1d byte(s)\n", sizeof(f));
-
+	
+	return (0);
 }
