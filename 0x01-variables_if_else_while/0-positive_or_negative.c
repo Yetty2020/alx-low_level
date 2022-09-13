@@ -2,14 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - assugns a random no to int
+ * main -entry point
  * Return 0 always
  */
  
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
