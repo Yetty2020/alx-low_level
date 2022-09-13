@@ -1,10 +1,8 @@
 #include <stdio.h>
-/*
- * function main - prints the alphabet in lowercase
- * followed by a newline
+/**
+ * main - prints the alphabet in lowercase
  * Return: 0 (success)
  */
-
 int main(void)
 {
 	char ch;
