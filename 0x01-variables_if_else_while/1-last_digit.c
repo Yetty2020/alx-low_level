@@ -2,14 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - entry point
- * return:0
- * main - prints the last digit of the random
+/**
+ * main - assigns a random no to int n everyime
+ * Return: Always 0 (sucess)
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %d is %d ", n, n % 10);
