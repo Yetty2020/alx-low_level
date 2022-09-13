@@ -17,5 +17,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	retuen (0);
+	return (0);
 }
