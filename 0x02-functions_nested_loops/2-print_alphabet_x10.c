@@ -1,9 +1,9 @@
-#include ""main.h"
+#include "main.h"
 /**
  * main - check code
  * Return: 0 Always
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	char a;
 	int b;
