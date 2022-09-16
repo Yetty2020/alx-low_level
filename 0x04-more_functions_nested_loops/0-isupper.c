@@ -2,7 +2,7 @@
 /**
  * _is_upper - check for uppercase letters
  * @c: the chracter to be checked
- * Retutn: 1 if upper and 0 of lower
+ * Return: 1 if upper and 0 of lower
  */
 int _isupper(int c)
 {
