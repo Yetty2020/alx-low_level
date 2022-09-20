@@ -8,7 +8,7 @@ int main(void)
 	char c;
 	int i;
 	long int li;
-	long long lli;
+	long long int lli;
 	float f;
 
 	printf("Size of a char: %d byte(s)\n", sizeof(c));
