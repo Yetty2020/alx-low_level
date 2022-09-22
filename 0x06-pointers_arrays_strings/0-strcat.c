@@ -1,5 +1,4 @@
 #include "main.h"
-#include  <stdio.h>
 /**
  * _strcat concatenates teh string
  * @dest: string will be appended
@@ -8,10 +7,13 @@
  */
 char *_strcat(char *dest, char *src);
 {
-	char *dest[12] = "Hello";
-	char *src[12] = "World";
+	int index = 0, dest_len = 0;
 
-	strcat(*dest, *src);
-	printf("strcat( *dest, *src):   %s\n", *dest);
-       	return (0)
+	while (dest[index++])
+		dest_len++;
+
+	for (index = 0; src[index]; index++)
+		dest[dest_len++] = src[index];
+
+	return (dest);
 }
